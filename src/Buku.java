@@ -8,8 +8,12 @@ public abstract class Buku {
         this.penulis = penulis;
         this.harga = harga;
     }
-    public int getHarga(){
+    public int getHarga() {
         return harga;
+    }
+
+    public String getJudul() {
+        return judul;
     }
 
     public abstract int hargaAkhir();
